@@ -1,0 +1,19 @@
+never_deactivated_physician:
+  npi: "1000000001"
+  entity_type: individual
+  name: JANE DOE
+  state: CA
+  last_updated_on: 2026-09-07
+
+reactivated_clinic:
+  npi: "1000000002"
+  entity_type: organization
+  name: RIVERSIDE FAMILY CLINIC
+  state: CA
+  deactivated_on: 2023-04-26
+  reactivated_on: 2023-05-17
+  last_updated_on: 2026-09-07
+
+deactivated_without_details:
+  npi: "1000000003"
+  deactivated_on: 2026-09-21

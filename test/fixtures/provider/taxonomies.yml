@@ -1,0 +1,11 @@
+physician_psychology:
+  provider: never_deactivated_physician
+  code: 103TC1900X
+
+clinic_family_medicine:
+  provider: reactivated_clinic
+  code: 207Q00000X
+
+clinic_psychology:
+  provider: reactivated_clinic
+  code: 103TC1900X
