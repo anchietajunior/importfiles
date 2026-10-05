@@ -9,3 +9,7 @@ clinic_family_medicine:
 clinic_psychology:
   provider: reactivated_clinic
   code: 103TC1900X
+
+pharmacy_community:
+  provider: texas_pharmacy
+  code: 3336C0003X
