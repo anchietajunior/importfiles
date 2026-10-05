@@ -1,0 +1,7 @@
+"NPI","Entity Type Code","Provider Organization Name (Legal Business Name)","Provider Last Name (Legal Name)","Provider First Name","Provider Business Practice Location Address State Name","Last Update Date","NPI Deactivation Date","NPI Reactivation Date","Healthcare Provider Taxonomy Code_1","Healthcare Provider Taxonomy Code_2","Healthcare Provider Taxonomy Code_3","Healthcare Provider Taxonomy Code_4","Healthcare Provider Taxonomy Code_5","Healthcare Provider Taxonomy Code_6","Healthcare Provider Taxonomy Code_7","Healthcare Provider Taxonomy Code_8","Healthcare Provider Taxonomy Code_9","Healthcare Provider Taxonomy Code_10","Healthcare Provider Taxonomy Code_11","Healthcare Provider Taxonomy Code_12","Healthcare Provider Taxonomy Code_13","Healthcare Provider Taxonomy Code_14","Healthcare Provider Taxonomy Code_15"
+"1000000021","1","","BROWN","ALICE","WA","09/08/2026","","","207Q00000X","","","","","","","","","","","","","",""
+"12345","1","","SHORT","NPI","WA","09/08/2026","","","207Q00000X","","","","","","","","","","","","","",""
+"1000000023","1","","UNBALANCED "QUOTE","EVE","WA","09/08/2026"
+"1000000024","1"
+"1000000025","1","","WRONG","DATE","WA","2026-09-08","","","207Q00000X","","","","","","","","","","","","","",""
+"1000000026","2","CEDAR HILLS LABORATORY","","","OR","09/09/2026","","","291U00000X","","","","","","","","","","","","","",""

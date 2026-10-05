@@ -10,7 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_04_035718) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_05_070108) do
+  create_table "import_rejections", force: :cascade do |t|
+    t.integer "import_id", null: false
+    t.integer "line_number", null: false
+    t.string "npi"
+    t.string "reason", null: false
+    t.index ["import_id"], name: "index_import_rejections_on_import_id"
+  end
+
+  create_table "imports", force: :cascade do |t|
+    t.string "file_name", null: false
+    t.string "status", default: "processing", null: false
+    t.integer "rows_read", default: 0, null: false
+    t.integer "rows_imported", default: 0, null: false
+    t.integer "rows_skipped", default: 0, null: false
+    t.integer "rows_rejected", default: 0, null: false
+    t.string "failure_reason"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "provider_taxonomies", force: :cascade do |t|
     t.integer "provider_id", null: false
     t.string "code", null: false
@@ -32,5 +52,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_04_035718) do
     t.index ["state"], name: "index_providers_on_state"
   end
 
+  add_foreign_key "import_rejections", "imports"
   add_foreign_key "provider_taxonomies", "providers"
 end
